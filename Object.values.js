@@ -1,7 +1,7 @@
 Object.grabKeys = function(obj) {
   let arr = [];
-  for (let value in obj) {
-    arr.push(value);
+  for (let key in obj) {
+    arr.push(obj[key]);
   }
   return arr;
 }
@@ -13,5 +13,5 @@ const student = {
   gender: 'male'
 };
 
-const keys = Object.grabKeys(student);
-console.log(keys); 
+const values = Object.grabKeys(student);
+console.log(values); 
