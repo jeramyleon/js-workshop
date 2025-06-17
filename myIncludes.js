@@ -6,3 +6,6 @@ function myIncludes(arr, value) {
   }
   return false;
 }
+
+const fruits = ['apple', 'banana', 'cherry'];
+console.log(customIncludes(fruits, 'banana'));

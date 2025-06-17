@@ -6,3 +6,9 @@ function myEvery(arr, callback) {
   }
   return true;
 }
+
+const numbers = [2, 4, 6, 8];
+const allEven = myEvery(numbers, function(num) {
+  return num % 2 === 0;
+});
+console.log(allEven);
