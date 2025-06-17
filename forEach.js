@@ -4,9 +4,9 @@ function myEach(callback, array) {
     }
 }
 
-let numbers = [1, "hi", 3, 4, "bye", 6];
+let elements = [1, "hi", 3, 4, "bye", 6];
 
-myEach(isNaN, numbers); 
+myEach(isNaN, elements); 
 
 
 
