@@ -13,3 +13,9 @@ function myReduce(arr, callback, initialValue) {
   }
   return accumulator;
 }
+
+const numbers = [1, 2, 3, 4];
+const sum = customReduce(numbers, function(acc, curr) {
+  return acc + curr;
+}, 0);
+console.log(sum);

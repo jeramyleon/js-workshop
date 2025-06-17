@@ -7,3 +7,6 @@ function myIndexOf(arr, element){
     }
     return -1;
 }
+
+const numbers = [5, 10, 15, 20];
+console.log(customIndexOf(numbers, 15));
